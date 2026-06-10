@@ -117,13 +117,13 @@ Edit `config.yaml` to point at your inputs before the first run. See the repo RE
 
 ### Next.js and TypeScript
 
-Repos: `money-counter`, the `neuro` frontend (under `frontend/`).
+Repos: `MoneyForge`, `GradeForge` and the `neuro` frontend (under `frontend/`).
 
 Install [Node.js](https://nodejs.org) (an LTS release works). Then from the repo root:
 
 ```bash
 npm install              # install dependencies
-npm run dev              # start the dev server (money-counter serves at http://localhost:3000)
+npm run dev              # start the dev server (MoneyForge / GradeForge serves at http://localhost:3000)
 npm run lint             # run ESLint
 npm run build            # production build
 ```
